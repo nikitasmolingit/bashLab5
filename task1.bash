@@ -7,7 +7,7 @@ while true
 do
 let i++
 	array+=(${mas[@]})
-	if [[ $counter == 10000 ]]
+	if [[ $i == 10000 ]]
 	then
 		echo "${#arr[@]}" >> rezult
 		i=0
