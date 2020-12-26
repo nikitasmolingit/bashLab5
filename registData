@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./mem.bash&pid0=$!
+./task1&pid0=$!
 rm data1
 echo "vremia pam vir RES SHR CPU FREE SWAP" >> data1
 
